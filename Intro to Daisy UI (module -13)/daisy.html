@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Daisy UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- accordion -->
+    <section>
+        <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" checked="checked" /> 
+            <div class="collapse-title text-xl font-medium">
+              Do you Like Tailwind CSS?
+            </div>
+            <div class="collapse-content"> 
+              <p>Yes , I do.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl font-medium">
+                What's your name?
+            </div>
+            <div class="collapse-content"> 
+              <p>Nabila</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl font-medium">
+              Where do you live?
+            </div>
+            <div class="collapse-content"> 
+              <p>Bangladesh. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nobis odio, sint nostrum magni illo sunt, nam id, facilis commodi aspernatur minima deserunt. Delectus, velit rerum distinctio omnis tenetur repellendus!</p>
+            </div>
+          </div>
+    </section>
+
+    <!-- card -->
+    <section>
+        <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="img/jacket-1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">
+                Beautiful Jacket!
+                <div class="badge badge-secondary">NEW</div>
+              </h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <div class="badge badge-outline">Fashion</div> 
+                <div class="badge badge-outline">Products</div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- carousel -->
+    <section>
+        <div class="carousel w-full">
+            <div id="item1" class="carousel-item w-full">
+              <img src="images/jacket-1.png" class="w-full" />
+            </div> 
+            <div id="item2" class="carousel-item w-full">
+              <img src="images/jacket-2.png" class="w-full" />
+            </div> 
+            <div id="item3" class="carousel-item w-full">
+              <img src="images/jacket-3.png" class="w-full" />
+            </div> 
+            <div id="item4" class="carousel-item w-full">
+              <img src="images/jacket-4.png" class="w-full" />
+            </div>
+          </div> 
+          <div class="flex justify-center w-full py-2 gap-2">
+            <a href="#item1" class="btn btn-xs">1</a> 
+            <a href="#item2" class="btn btn-xs">2</a> 
+            <a href="#item3" class="btn btn-xs">3</a> 
+            <a href="#item4" class="btn btn-xs">4</a>
+          </div>
+    </section>
+</body>
+</html>

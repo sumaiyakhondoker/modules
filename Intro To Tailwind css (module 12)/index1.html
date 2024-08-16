@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore flex</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section>
+        <h3 class="text-3xl">Exploring flex in Tailwind CSS</h3>
+        <div class="flex flex-col md:flex-row lg:justify-between  m-10 h-96 border-4 border-orange-300 justify-center  items-center ">
+        <div class="bg-purple-400 w-24 h-24 border-4 border-blue-300 rounded-lg p-4 font-bold rotate-45">Box 1</div>
+        <div class="bg-purple-400 w-24 h-24 border-4 border-blue-300 rounded-lg p-4 ">Box 2</div>
+        <div class="bg-purple-400 w-24 h-24 border-4 border-blue-300 rounded-lg p-4">Box 3</div>
+        <div class="bg-purple-400 w-24 h-24 border-4 border-blue-300 rounded-lg p-4">Box 4</div>
+        
+    </div>
+    </section>
+    <hr>
+
+    <section>
+        <div class=" mt-4 grid grid-cols-1 gap-2  md:grid-cols-4 ">
+            <div class="bg-blue-400 p-4 rounded-lg">Box 1</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 2</div>
+            <div class="bg-blue-400 p-4 rounded-lg ">Box 3</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 4</div>
+            <div class="bg-blue-400 p-4 rounded-lg md:col-span-4">Box 5</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 6</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 7</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 8</div>
+            <div class="bg-blue-400 p-4 rounded-lg md:col-span-3">Box 9</div>
+            <div class="bg-blue-400 p-4 rounded-lg md:row-span-2">Box 10</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 11</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 12</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 13</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 14</div>
+            <div class="bg-blue-400 p-4 rounded-lg md:row-span-3">Box 15</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 16</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 17</div>
+            <div class="bg-blue-400 p-4 rounded-lg md:col-span-2">Box 18</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 19</div>
+            <div class="bg-blue-400 p-4 rounded-lg">Box 20</div>
+        </div>
+    </section>
+
+    <hr>
+
+   <section class="mt-10"> 
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-2 ">
+        <div class="md:col-span-4 bg-yellow-500">Header</div>
+        <div class="bg-yellow-500">Nav</div>
+        <div class="md:col-span-2 h-48 bg-yellow-500 ">Main Content</div>
+        <div class="bg-yellow-500">Side Bar</div>
+        <div class="md:col-span-4 bg-yellow-500">Footer</div>
+      
+    </div>
+   </section>
+</body>
+</html>

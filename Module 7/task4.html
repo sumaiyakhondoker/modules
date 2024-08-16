@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 4</title>
+    <style>
+        .container{
+            max-width:1140px ;
+            margin: 0px auto;
+        }
+
+        .food {
+            display: flex;
+            gap: 10px;
+            border: 2px solid gray;
+
+
+            
+        }
+        .a{
+            margin-bottom: 10px;
+        }
+       
+        .food img{
+            width: 100%;
+        }
+
+        .btn{
+            padding: 8px 10px;
+            border-radius: 5px;
+            background-color: rgb(63, 145, 227);
+            color: white;
+            border: 0;
+        }
+
+        @media screen and (max-width:576px) {
+            .food{
+                flex-direction: column;
+                padding: 10px;
+            }
+        }
+
+        @media screen and (min-width:576px) and (max-width:992px) {
+            .food{
+                flex-direction: column;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food a">
+            <div class="img">
+                <img src="image/food.jpg" alt="">
+            </div>
+                <div class="food-info">
+                    <h3>Post Title Will be here</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit natus rem sint excepturi voluptates delectus cupiditate temporibus possimus. Iusto incidunt eum illo quaerat impedit nobis saepe amet quibusdam eius deserunt?</p>
+                    <button class="btn">Read More</button>
+
+                </div>
+            
+        </div>
+        <div class="food b">
+            <div class="img">
+                <img src="image/food.jpg" alt="">
+            </div>
+                <div class="food-info">
+                    <h3>Post Title Will be here</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit natus rem sint excepturi voluptates delectus cupiditate temporibus possimus. Iusto incidunt eum illo quaerat impedit nobis saepe amet quibusdam eius deserunt?</p>
+                    <button class="btn">Read More</button>
+
+                </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

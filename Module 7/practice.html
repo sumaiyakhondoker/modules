@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        body{
+            max-width: 1140px;
+            margin: 0px auto;
+            height: 100vh;
+        }
+        .box-container{
+            display: flex;
+            gap: 10px;
+            padding: 10px;
+            border: 2px solid purple;
+            border-radius: 10px;
+            color: aqua;
+            text-align: center;
+            overflow: hidden;
+            
+
+
+        }
+    .box-container div{
+     border-radius:10px ;
+     
+    }
+
+        .box-container div:first-child{
+            background-color: gray;
+            width: 25vw;
+        height: 100vh;
+        }
+        .box-container div:last-child{
+            background-color:plum;
+            width: 75vw;
+        height: 100vh;
+
+        }
+
+        @media screen and (max-width:576px) {
+            .box-container{
+                flex-direction: column;
+            }
+            .box-container div:first-child, .box-container div:last-child {
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Task - 1</h1>
+    <div class="box-container">
+        <div>Left</div>
+        <div>Right</div>
+    </div>
+</body>
+</html>

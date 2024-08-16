@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .box-container{
+            max-width: 1140px;
+            max-height: 1200px;
+            border: 2px solid plum;
+            margin: 0px auto;
+
+            display: flex;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .box{
+            width: 100%;
+
+            height: 500px;
+            border: 2px solid rgb(44, 225, 56);
+            background-color: skyblue;
+            text-align: center;
+            font-size: 2rem;
+            border-radius: 10px;
+
+
+
+        }
+        @media screen and (max-width:576px) {
+            .box-container{
+                flex-direction: column;
+
+            }
+            .box{
+                background-color: yellow;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Task-1</h1>
+    <div class="box-container">
+        <div class="left box">Left</div>
+        <div class="right box">Right</div>
+    </div>
+</body>
+</html>

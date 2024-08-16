@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <style>
+        .container{
+
+
+        }
+
+        .item{
+            display: flex;
+        }
+        .item div{
+            width: 50%;
+        }
+        .item img{
+            width: 100%;
+        }
+
+        .img-desc{
+            padding:50px;
+
+        }
+
+        .b{
+            flex-direction: row-reverse;
+        }
+
+        @media screen and (max-width:576px) {
+            .item{
+                flex-direction: column;
+            }
+            .item div{
+            width: 100%;
+            }
+            .img-desc{
+            padding:10px;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="img">
+                <img src="image/b1.jpeg" alt="">
+            </div>
+            <div class="img-desc">
+                <h3>Building Number 1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur distinctio a natus itaque eaque aspernatur aut vel culpa reprehenderit, quasi tempora, reiciendis ut aliquam rem aperiam enim modi autem quas!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam dolor maxime corrupti animi fugiat eius laborum, expedita, esse dignissimos cum doloremque, illo quia dolore magnam reiciendis deserunt quasi perspiciatis nisi?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur distinctio a natus itaque eaque aspernatur aut vel culpa reprehenderit, quasi tempora, reiciendis ut aliquam rem aperiam enim modi autem quas!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam dolor maxime corrupti animi fugiat eius laborum, expedita, esse dignissimos cum doloremque, illo quia dolore magnam reiciendis deserunt quasi perspiciatis nisi?</p>
+            </div>
+        </div>
+
+
+        <div class="item b">
+            <div class="img">
+                <img src="image/b2.jpg" alt="">
+            </div>
+            <div class="img-desc">
+                <h3>Building Number 2</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur distinctio a natus itaque eaque aspernatur aut vel culpa reprehenderit, quasi tempora, reiciendis ut aliquam rem aperiam enim modi autem quas!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam dolor maxime corrupti animi fugiat eius laborum, expedita, esse dignissimos cum doloremque, illo quia dolore magnam reiciendis deserunt quasi perspiciatis nisi?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur distinctio a natus itaque eaque aspernatur aut vel culpa reprehenderit, quasi tempora, reiciendis ut aliquam rem aperiam enim modi autem quas!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam dolor maxime corrupti animi fugiat eius laborum, expedita, esse dignissimos cum doloremque, illo quia dolore magnam reiciendis deserunt quasi perspiciatis nisi?</p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
